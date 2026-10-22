@@ -1,3 +1,5 @@
 {
-  "version": "1.0.10"
+  "resource": "OUW_Stickup",
+  "version": "1.0.11",
+  "notes": "v1.0.11: verified OUW_TextUI/OUW_Notifications exports, return-value-aware fallback, streamlined notification bridge; GitHub tracker retained."
 }
