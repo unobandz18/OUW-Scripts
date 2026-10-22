@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.69",
+  "version": "1.44.70",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.30"
+    "version": "1.1.31"
   },
   "notes": [
-    "Mini music player across tablet tabs.",
-    "Resizable navigation and music split view.",
-    "Automatic day/night display, GitHub release tracker and shorter installation guide."
+    "OUW_Notifications support with explicit notification provider selection.",
+    "Organized configuration and simplified export callbacks.",
+    "Verified Lua, JavaScript, integration and package checks."
   ]
 }
