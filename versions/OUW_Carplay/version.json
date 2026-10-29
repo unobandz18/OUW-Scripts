@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.71",
+  "version": "1.44.72",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.32"
+    "version": "1.1.33"
   },
   "notes": [
-    "Reduced hidden UI work, repeated artwork lookups and vehicle refresh requests.",
-    "SQL playback checkpoints and paused recovery after resource restarts.",
-    "Shared xSound pause/resume and seeking with existing provider behavior preserved."
+    "Refined tablet and phone controls, split-view search, page alignment and live engine colors.",
+    "Reduced unchanged vehicle UI updates, map redraws, vehicle discovery enumeration and paused playback writes.",
+    "Cleaned up UI code and styles; release-note console output removed."
   ]
 }
