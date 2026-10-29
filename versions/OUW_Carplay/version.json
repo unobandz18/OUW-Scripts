@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.70",
+  "version": "1.44.71",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.31"
+    "version": "1.1.32"
   },
   "notes": [
-    "OUW_Notifications support with explicit notification provider selection.",
-    "Organized configuration and simplified export callbacks.",
-    "Verified Lua, JavaScript, integration and package checks."
+    "Reduced hidden UI work, repeated artwork lookups and vehicle refresh requests.",
+    "SQL playback checkpoints and paused recovery after resource restarts.",
+    "Shared xSound pause/resume and seeking with existing provider behavior preserved."
   ]
 }
