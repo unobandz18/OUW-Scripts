@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.78",
+  "version": "1.44.79",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.39"
+    "version": "1.1.40"
   },
   "notes": [
-    "Cleaned up embedded audio code and removed redundant failure-state resets.",
-    "Preserved AudioPlayer 1.0.4 spatial playback, DSP connection reuse and synchronized tablet and phone behavior.",
-    "Validated audio, DSP, permissions, layouts and matching release packages."
+    "Improved narrow phone header, control shortcuts, selection sheets and safe-area spacing.",
+    "Fixed clipped DSP Advanced fields on compact phone screens and added visible keyboard focus for preset menus.",
+    "Verified phone layouts from 260 to 430 pixels and retained documented QS icon registration without inventing a required pixel size."
   ]
 }
