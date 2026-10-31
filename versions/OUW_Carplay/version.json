@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.75",
+  "version": "1.44.76",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.36"
+    "version": "1.1.37"
   },
   "notes": [
-    "Updated embedded Core and shared DSP from AudioPlayer 1.0.1 with automatic HRTF for direct audio.",
-    "Restored tablet and phone Rtube tuning with automatic signal-bridge connection when media access is available.",
-    "Kept installation, permissions and synchronized playback; removed duplicate audio graph code without adding config options."
+    "Aligned Rtube startup and spatial filtering with the supplied AudioPlayer DSP path.",
+    "Automatic DSP connection starts with playback; a stable player mount preserves the live iframe.",
+    "Kept saved vehicle tuning synchronized across tablet and phone; validated processing, presets and cleanup."
   ]
 }
