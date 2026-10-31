@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.77",
+  "version": "1.44.78",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.38"
+    "version": "1.1.39"
   },
   "notes": [
-    "Merged relevant AudioPlayer 1.0.4 DSP connection reuse and playback lifecycle fixes.",
-    "Retained automatic spatial playback and existing server permission and rate checks.",
-    "Tightened HTTPS and Rtube embed validation, cleared stale vehicle acoustics, and removed an unused server helper."
+    "Cleaned up embedded audio code and removed redundant failure-state resets.",
+    "Preserved AudioPlayer 1.0.4 spatial playback, DSP connection reuse and synchronized tablet and phone behavior.",
+    "Validated audio, DSP, permissions, layouts and matching release packages."
   ]
 }
