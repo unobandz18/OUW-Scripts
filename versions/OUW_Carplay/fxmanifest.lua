@@ -1,4 +1,4 @@
 fx_version 'cerulean'
 game 'gta5'
 author 'Ismail'
-version '1.44.77'
+version '1.44.78'
