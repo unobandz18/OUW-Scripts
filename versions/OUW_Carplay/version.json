@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.79",
+  "version": "1.44.80",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.40"
+    "version": "1.1.41"
   },
   "notes": [
-    "Added internal Brazzers fake-plate support using the original plate for saved installation, DSP, vehicle profiles and playback.",
-    "Preserved displayed plates and carlock checks; no new config option or database migration required.",
-    "Merged AudioPlayer 1.0.5 driving soundstage and Rtube smoothing refinements; validated plate swaps, restart resolution and uninstall behavior."
+    "Cleaned up internal Brazzers original-plate resolution and cached identity checks.",
+    "Preserved CarPlay and DSP installations, tuning, profiles and playback across fake plate changes.",
+    "Retained AudioPlayer 1.0.5 driving refinements; plate-swap, DSP, audio and package checks passed."
   ]
 }
