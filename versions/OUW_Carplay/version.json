@@ -6,8 +6,8 @@
     "version": "1.1.40"
   },
   "notes": [
-    "Improved narrow phone header, control shortcuts, selection sheets and safe-area spacing.",
-    "Fixed clipped DSP Advanced fields on compact phone screens and added visible keyboard focus for preset menus.",
-    "Verified phone layouts from 260 to 430 pixels and retained documented QS icon registration without inventing a required pixel size."
+    "Centered tablet search text, placeholders and dropdown labels with balanced icon and arrow spacing.",
+    "Improved narrow phone controls, picker sheets and DSP Advanced fields without changing control behavior.",
+    "Verified phone layouts from 260 to 430 pixels; QS icon registration follows supplied docs without inventing a required pixel size."
   ]
 }
