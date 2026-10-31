@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.80",
+  "version": "1.44.81",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.41"
+    "version": "1.1.42"
   },
   "notes": [
-    "Cleaned up internal Brazzers original-plate resolution and cached identity checks.",
-    "Preserved CarPlay and DSP installations, tuning, profiles and playback across fake plate changes.",
-    "Retained AudioPlayer 1.0.5 driving refinements; plate-swap, DSP, audio and package checks passed."
+    "Removed temporary SQL diagnostics and simplified installation instructions.",
+    "Preserved working pocket, glovebox and trunk tablet access with fake plates.",
+    "Storage, garage recovery, DSP, phone layout and control regression checks passed."
   ]
 }
