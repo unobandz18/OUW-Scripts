@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.76",
+  "version": "1.44.77",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.37"
+    "version": "1.1.38"
   },
   "notes": [
-    "Aligned Rtube startup and spatial filtering with the supplied AudioPlayer DSP path.",
-    "Automatic DSP connection starts with playback; a stable player mount preserves the live iframe.",
-    "Kept saved vehicle tuning synchronized across tablet and phone; validated processing, presets and cleanup."
+    "Merged relevant AudioPlayer 1.0.4 DSP connection reuse and playback lifecycle fixes.",
+    "Retained automatic spatial playback and existing server permission and rate checks.",
+    "Tightened HTTPS and Rtube embed validation, cleared stale vehicle acoustics, and removed an unused server helper."
   ]
 }
