@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.81",
+  "version": "1.44.82",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.42"
+    "version": "1.1.43"
   },
   "notes": [
-    "Removed temporary SQL diagnostics and simplified installation instructions.",
-    "Preserved working pocket, glovebox and trunk tablet access with fake plates.",
-    "Storage, garage recovery, DSP, phone layout and control regression checks passed."
+    "Paste-to-play song cards and clickable music search results.",
+    "Refined split-view music player and tablet/phone DSP EQ presentation.",
+    "Cleaned duplicate link validation and routine status text; focused interaction and package checks passed."
   ]
 }
