@@ -1,5 +1,5 @@
 {
   "resource": "OUW_Stickup",
-  "version": "1.0.12",
-  "notes": "v1.0.12: OUW_TextUI v1.0.1 export compatibility release; gameplay and other integrations unchanged."
+  "version": "1.0.13",
+  "notes": "v1.0.13: session recovery, payout validation, TextUI synchronization, animation cleanup, and code cleanup."
 }
