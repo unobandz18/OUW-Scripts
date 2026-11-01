@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.86",
+  "version": "1.44.87",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.47"
+    "version": "1.1.48"
   },
   "notes": [
-    "Added Config.Fuel.Provider with auto and manual selection for ox_fuel, qs-fuelstations, LegacyFuel and ps-fuel.",
-    "Reorganized config by purpose while preserving existing settings; cleaned the fuel bridge with safe provider fallback.",
-    "Verified Lua/JavaScript, fuel auto/manual paths, integration defaults, fake-plate storage, music saves, split view, DSP and package integrity."
+    "Fixed the shared tablet and phone interior-light handler by removing an undefined native call.",
+    "Retained configurable auto/manual fuel selection and cleaned integration defaults.",
+    "Lua syntax, permissions, interior-light on/off acknowledgement and release package checks passed."
   ]
 }
