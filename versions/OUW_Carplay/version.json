@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.84",
+  "version": "1.44.85",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.45"
+    "version": "1.1.46"
   },
   "notes": [
-    "Removed the redundant Save song shortcut and added database-confirmed Added to Library feedback.",
-    "Improved save retry handling and prevented late request failures from resetting newer saves.",
-    "Lua and JavaScript checks, permissions, callbacks, library saves, split view, DSP and package checks passed."
+    "Framework, Inventory, Phone and Keys default to auto; notifications default to ox_lib; built-in ouw-audio retained.",
+    "Removed native/custom integration choices and unused hooks; fuel defaults to ox_fuel and HUD hiding to none.",
+    "Verified integration defaults, permissions, callbacks, fake-plate storage access, library saves, split view, DSP and package integrity."
   ]
 }
