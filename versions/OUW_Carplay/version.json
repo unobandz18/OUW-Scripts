@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.83",
+  "version": "1.44.84",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.44"
+    "version": "1.1.45"
   },
   "notes": [
-    "Cleaned UI callbacks and retired styles while preserving working playback and vehicle controls.",
-    "Framework admin groups and optional identifiers now live in editable/permissions.lua.",
-    "Lua/JavaScript syntax, permissions, callback validation, music, split player, DSP and package checks passed."
+    "Removed the redundant Save song shortcut and added database-confirmed Added to Library feedback.",
+    "Improved save retry handling and prevented late request failures from resetting newer saves.",
+    "Lua and JavaScript checks, permissions, callbacks, library saves, split view, DSP and package checks passed."
   ]
 }
