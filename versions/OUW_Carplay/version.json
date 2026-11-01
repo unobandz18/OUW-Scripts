@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.82",
+  "version": "1.44.83",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.43"
+    "version": "1.1.44"
   },
   "notes": [
-    "Paste-to-play song cards and clickable music search results.",
-    "Refined split-view music player and tablet/phone DSP EQ presentation.",
-    "Cleaned duplicate link validation and routine status text; focused interaction and package checks passed."
+    "Cleaned UI callbacks and retired styles while preserving working playback and vehicle controls.",
+    "Framework admin groups and optional identifiers now live in editable/permissions.lua.",
+    "Lua/JavaScript syntax, permissions, callback validation, music, split player, DSP and package checks passed."
   ]
 }
