@@ -1,13 +1,13 @@
 {
   "resource": "OUW_Carplay",
-  "version": "1.44.88",
+  "version": "1.44.89",
   "phone_app": {
     "resource": "OUW_carplay_app",
-    "version": "1.1.49"
+    "version": "1.1.50"
   },
   "notes": [
-    "Consolidated tablet, radio units and DSP usable-item registration through ESX/QB/Qbox.",
-    "Standard item definitions no longer need client exports or consume=0; preserved optional standalone definitions.",
-    "Verified usable-item callbacks, framework fallback, Lua/JavaScript syntax, vehicle integration checks, music, split view, DSP and package integrity."
+    "Corrected crossover Q units and combined EQ/bass/sub headroom; clarified inactive Rtube DSP status.",
+    "Corrected HRTF direction conversion, refreshed moving source positions at 100 ms and shared direct/Rtube acoustic filtering.",
+    "Removed unused spatial fields and repeated calculations. Verified 432 direction cases, 93 Web Audio cases, movement, UI controls, Lua/JavaScript and package integrity."
   ]
 }
