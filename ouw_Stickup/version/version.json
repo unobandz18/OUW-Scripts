@@ -1,0 +1,5 @@
+{
+  "resource": "ouw_Stickup",
+  "version": "1.0.14",
+  "notes": "v1.0.14: renamed resource to ouw_Stickup; safer startup validation and interruption cleanup; preserved legacy robbery events."
+}
