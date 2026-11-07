@@ -1,5 +1,5 @@
 {
   "resource": "OUW_Stickup",
-  "version": "1.0.13",
-  "notes": "v1.0.13: session recovery, payout validation, TextUI synchronization, animation cleanup, and code cleanup."
+  "version": "1.0.14",
+  "notes": "Resource renamed to ouw_Stickup in v1.0.14. Remove old folder and install the renamed resource. New tracker: ouw_Stickup/version/version.json."
 }
